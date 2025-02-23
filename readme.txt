@@ -135,3 +135,46 @@ This combination of factors positions TypeScript as an integral part of modern s
 applications with stability, scalability and collaborative efficiency.
 
 
+
+Lec 4. JavaScript vs TypeScript
+TypeScript and JavaScript are two related but distinct programming languages with varying features and
+
+JavaScript is a widely used scripting language, primarily used for web development. It runs directly in web 
+browsers and enables interactive and dynamic functionality on websites. JavaScript is dynamically typed, 
+allowing variables to change types during runtime. While this flexibility can lead to quick development, it 
+can also result in runtime errors that are harder to catch before execution.
+
+While TypeScript is a superset of JavaScript developed by Microsoft. It introduces static typing where variable 
+types are declared before runtime. This catches type related errors during development enhancing code quality 
+and making applications more robust.
+
+TypeScript offers type inference, reducing the need for explicit type annotations. It also supports the latest 
+ECMA script features and transpiles into JavaScript for compatibility with different environments.
+
+
+let's now explore the key differences between the two.
+So the first difference is the type system. TypeScript has a static type system enforcing type definitions 
+during development to catch errors early.
+JavaScript relies on dynamic typing, which can lead to runtime errors that are detected only when the code executed.
+
+Number two. 
+So basically the second difference is the error detection. Typescript's static typing leads to better error 
+detection at compile time, reducing the likelihood of type related bugs.
+JavaScript errors are often discovered only during runtime. 
+
+Number three Tooling.
+TypeScript offers Advanced code editor support, including Autocompletion type checking and refactoring tools.
+Thanks to its type annotations, JavaScript has more limited tooling support.
+
+Number four code quality TypeScript type system and early error detection contribute to higher code quality 
+and easier maintenance and JavaScript's dynamic typing can lead to more complex debugging and maintenance efforts.
+
+Number five Learning Curve.
+JavaScript's Dynamic nature can make it easier for beginners to start coding quickly.
+TypeScript Static typing may have a steeper learning curve, but promotes better code structure and understanding 
+among teams.
+
+
+In summary, JavaScript is versatile for web development but lacks the robust error checking of TypeScript.
+TypeScript Static typing and enhanced tooling lead to more reliable, maintainable and scalable code, making 
+it a valuable choice for larger projects and teams aiming for improved code quality and collaboration.
