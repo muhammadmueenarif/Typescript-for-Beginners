@@ -44,3 +44,41 @@ Typescript's compatibility with JavaScript ecosystems, along with its ability to
 ensures that projects written in TypeScript can be used across a wide range of platforms and environments.
 Whether you're building web applications, server side systems or other software, TypeScript provides an 
 effective way to level up your development process.
+
+
+Lec 2. Frameworks that use TS
+Several prominent web development frameworks have chosen TypeScript as their language of choice due to its 
+advantages in enhancing code quality developer productivity and project maintainability. Some of the notable 
+frameworks that utilize TypeScript include number one Angular, so developed and maintained by Google.
+Angular is a comprehensive framework for building dynamic web applications. Since its release, Angular 
+has been a strong advocate of TypeScript. Typescript's Strong typing aligns well with Angular's 
+emphasis on structured and maintainable code. This pairing ensures robust applications with a well defined 
+architecture.
+
+Number two React Created by Facebook. React is a widely used library for building user interfaces. While React 
+itself doesn't require TypeScript, many developers and companies choose to use TypeScript with React to 
+take advantage of its static typing features which enhance the predictability and reliability of their applications.
+
+Number three Vue.js. Although Vue.js doesn't enforce TypeScript usage, it offers excellent TypeScript support. 
+Vue.js is known for its flexibility and ease of integration, and using TypeScript with Vue.js can help maintain 
+code quality and improve the development experience.
+
+Number four next JS. So basically, Next.js is the back end framework that's heavily influenced by Angular's 
+architecture and design principles. It encourages the use of TypeScript to build scalable and maintainable 
+Node.js applications. TypeScript Strong typing helps prevent common errors in the back end code base.
+
+
+Number five. Ionic. Ionic is a framework for building cross-platform mobile application using web technologies.
+It leverages TypeScript to create performant and feature rich apps that can be deployed on various platforms, 
+including iOS, Android and the Web.
+
+
+Number six. Aurelia. Aurelia is a modern framework focused on simplicity and flexibility. It's designed with 
+TypeScript in mind, allowing developers to easily integrate and take advantage of TypeScript features to 
+create robust and maintainable applications.
+
+These frameworks have recognized the benefits that TypeScript brings to the table, including enhanced code 
+quality, better tooling, early error detection and improved collaboration among development teams. As a result, 
+TypeScript has become a preferred choice for building applications in these frameworks, contributing to its 
+widespread adoption in the web development community.
+
