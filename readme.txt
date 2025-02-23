@@ -178,3 +178,11 @@ among teams.
 In summary, JavaScript is versatile for web development but lacks the robust error checking of TypeScript.
 TypeScript Static typing and enhanced tooling lead to more reliable, maintainable and scalable code, making 
 it a valuable choice for larger projects and teams aiming for improved code quality and collaboration.
+
+
+Lec 4. Install vs code and Typescript.
+open vs code terminal and run command. npm install typescript --save-dev. to install. use tsc -v to check if 
+it is installed or not. you can download from the website also if you don't want to install using terminal. 
+
+npm install -g typescript. 
+Ensure that you have node js installed. 
