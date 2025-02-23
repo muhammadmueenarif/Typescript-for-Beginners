@@ -192,3 +192,5 @@ if we are not sure we can assign type any.
 num:any= "Hy"; means it can be of any type. 
 in typescript we compile our code by using tsc. ts means typescript and c means compiler. typescript is 
 compiled into js when executed in browser. tsc index.ts to run. 
+
+ts-node index.ts. run it to see in console. 
