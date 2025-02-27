@@ -206,3 +206,7 @@ if we write tsc index.ts --watch it will look for changes auto hence streamline 
 Lec 6. Variables 
 let, var and const are variable. with let we can't declare variable with same name.
 const constant its value can't be changed.
+
+Lec 7. Data Types 
+there are other data types also available. boolean, number, string, array, object, null, undefined. 
+ 
