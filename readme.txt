@@ -239,3 +239,6 @@ push, pop, shift, unshift. concat, filter, map, max, reduce, findindex, foreach.
 Lec 12. Inheritance
 oop concepts Inheritance, class, interface. Inheritance one class uses properties of other. 
 
+Lec 13. MOdules. 
+main purpose to make code modular and easy to maintain. with modules we can handle different user data for 
+various purpose like we used for signup and login. 

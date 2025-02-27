@@ -147,3 +147,13 @@ class Child extends Parent {
 const name1 = new Child();
 name1.setmyName('John Doe');
 console.log(name1.myName());
+
+// modules
+
+import mylogin from "./login"
+import mysignup from './signup'
+
+let login =  new mylogin();
+console.log(login.data, login.userName);
+let signup = new mysignup();
+console.log(signup.data, signup.userName);
