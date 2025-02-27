@@ -225,3 +225,9 @@ specifying the properties they should have along with their corresponding data t
 
 interfaces. when we assign type in objects it becomes very lengthy so instead of assigning them in objects 
 we make a interface and use that interface name for objects where we need.
+
+
+Lec 10. Classes 
+constructors are special methods within class and executed when an object is created. 
+they can be used for object initialization. 
+ 
