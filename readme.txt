@@ -193,4 +193,16 @@ num:any= "Hy"; means it can be of any type.
 in typescript we compile our code by using tsc. ts means typescript and c means compiler. typescript is 
 compiled into js when executed in browser. tsc index.ts to run. 
 
-ts-node index.ts. run it to see in console. 
+ts-node index.ts. run it to see in console. or node index.js. 
+
+
+Lec 5. TypeScript Compiler 
+How code conversion into js and how to limit it. when we make changes in ts file then we need to recompile the 
+code to see updated value so js file also updated. 
+
+if we write tsc index.ts --watch it will look for changes auto hence streamline the process. 
+
+
+Lec 6. Variables 
+let, var and const are variable. with let we can't declare variable with same name.
+const constant its value can't be changed.
