@@ -251,3 +251,18 @@ when we assign type using :, it is called explicit.
 On the other hand, explicit typing is a term used to make data parameters more explicit and clear. It emphasizes 
 that developers should manually specify types to eliminate any ambiguity or confusion. In essence, it ensures 
 that type definitions are not dependent on inference.
+
+
+Lec 15. Void
+it is used to define return type of function in ts and js. 
+The purpose of using void is to make code self-explanatory, especially when dealing with functions that may 
+return different types of values.
+
+
+Lec 16. Unknown Type 
+In summary, the any data type in TypeScript is flexible and avoids compile time data checking. It permits 
+various types to be assigned to a variable without tracing errors. In contrast, the unknown type is considered 
+better than any because it enhances type safety. If you use unknown in one part of your code and refer to 
+it elsewhere, you will receive an error if the data types do not match. This promotes more. Robust type checking 
+and helps prevent potential issues.
+

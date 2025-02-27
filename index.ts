@@ -157,3 +157,28 @@ let login =  new mylogin();
 console.log(login.data, login.userName);
 let signup = new mysignup();
 console.log(signup.data, signup.userName);
+
+//void 
+let number; 
+function printNumber() { //you can write :void after the function bracket. type of function will become that of return result.
+    number = 40*50*44; //if we don't use return it will show undefined. when we use return, then not undefined.
+    //the type of function is changed to that return value like in this case number.
+}
+
+console.log(number);
+
+//unknown type 
+let data:any;
+data = 10;
+data = "Hello";
+data = true;
+
+let values:string;
+values = data; // this is valid because any type can be assigned to any type. this will show true because it 
+// is last value assigned to data variable.
+// if we assign data type unknown to data variable then the error will occur. because type unknow is not 
+//assignable to type string.  
+// However, introducing unknown results in a type mismatch error.
+
+
+console.log(data);
