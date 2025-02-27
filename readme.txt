@@ -230,4 +230,7 @@ we make a interface and use that interface name for objects where we need.
 Lec 10. Classes 
 constructors are special methods within class and executed when an object is created. 
 they can be used for object initialization. 
- 
+
+
+Lec 11. Array Methods 
+push, pop, shift, unshift. concat, filter, map, max, reduce. 

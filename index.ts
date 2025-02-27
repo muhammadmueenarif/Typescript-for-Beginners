@@ -81,3 +81,40 @@ class myapp {
 // instance of class myapp
 let user1 = new myapp('New User');
 user1.getName();
+
+// array methods. push, pop, shift, unshift, concat, slice. 
+let numbers:number[] = [1,2,3,4,5];
+numbers.push(6); //add number to end of array
+console.log(numbers);
+
+numbers.pop(); //remove last element of array
+console.log(numbers);
+
+numbers.shift(); //remove first element of array.
+console.log(numbers);
+
+numbers.unshift(0); //add element at start 
+console.log(numbers);
+
+let numbers2:number[] = [7,8,9];
+let combined:number[] = numbers.concat(numbers2); //concat is used to combine two arrays
+console.log(combined);
+
+let sliced:number[] = combined.slice(2,5); //slice is used to create new array from existing array
+console.log(sliced);
+
+//filter and map
+let filteredArray:number[] = combined.filter(num => num > 5); //filter numbers greater than 5.
+console.log(filteredArray);
+
+let doubledArray:number[] = combined.map(num => num * 2); //double each number.
+console.log(doubledArray);
+
+// reduce
+let reducedArray:number[] = [5,8,10,2,20,];
+let sum:number = reducedArray.reduce((acc, curr) => acc + curr, 0); //print sum.
+console.log(sum);
+// for max number
+let max:number = reducedArray.reduce((acc, curr) => Math.max(acc, curr));
+console.log(max);
+
