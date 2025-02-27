@@ -118,3 +118,17 @@ console.log(sum);
 let max:number = reducedArray.reduce((acc, curr) => Math.max(acc, curr));
 console.log(max);
 
+
+// foreach and findindex
+let score:number[] = [150, 741, 841, 22, 410]; //find index of number 20.
+let highScore  =score.find(score => score >500);
+let highScoreIndex = score.findIndex(score=> score >800);
+console.log(`high score index is ${highScoreIndex}`);
+console.log(`high scores are ${highScore}`);
+
+
+let fruits:string[] = ["apple", "banana", "orange"]
+fruits.forEach(fruits => console.log(fruits)); //print each element of array. if we print direct 
+//  console.log(fruits), it will return array but for each return element of array not in array format.
+
+// arrow function
