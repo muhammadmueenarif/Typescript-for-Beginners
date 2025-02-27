@@ -285,3 +285,8 @@ make an exclude function at the end of config file and add file you don't want t
 This flexibility in configuring which files to include or exclude becomes particularly useful in larger
 production level projects where some files may not hold significant value or relevance to the project and 
 you wish to exclude them from the compilation process.
+
+
+Lec 18. TS Config Target. 
+in tsconfig file the target default value is 3 but we can set it as to latest by writing es and then the veriosn 
+we want to use like es6 or es next. 
