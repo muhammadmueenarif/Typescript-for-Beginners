@@ -207,6 +207,13 @@ Lec 6. Variables
 let, var and const are variable. with let we can't declare variable with same name.
 const constant its value can't be changed.
 
+
 Lec 7. Data Types 
 there are other data types also available. boolean, number, string, array, object, null, undefined. 
- 
+
+
+Lec 8. Functions with annotations
+let a: number | string = "20"; | is used to assign more than one data type so in this case it can store the 
+number as well as string. 
+
+there is also any data type means it can store any value. 
