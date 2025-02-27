@@ -233,4 +233,9 @@ they can be used for object initialization.
 
 
 Lec 11. Array Methods 
-push, pop, shift, unshift. concat, filter, map, max, reduce. 
+push, pop, shift, unshift. concat, filter, map, max, reduce, findindex, foreach.
+
+
+Lec 12. Inheritance
+oop concepts Inheritance, class, interface. Inheritance one class uses properties of other. 
+

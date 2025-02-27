@@ -131,4 +131,19 @@ let fruits:string[] = ["apple", "banana", "orange"]
 fruits.forEach(fruits => console.log(fruits)); //print each element of array. if we print direct 
 //  console.log(fruits), it will return array but for each return element of array not in array format.
 
-// arrow function
+class Parent {
+    name;
+    setmyName(name) {
+        this.name = name;
+    }
+}
+
+class Child extends Parent {
+    myName() {
+        return this.name;
+    }
+}
+
+const name1 = new Child();
+name1.setmyName('John Doe');
+console.log(name1.myName());
