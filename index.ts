@@ -51,3 +51,19 @@ const userID = (x,y):number => {
 
 console.log(userID(100,"for Kashan"));
 
+// interfaces. when we assign type in objects it becomes very lengthy so instead of assigning them in objects 
+// we make a interface and use that interface name for objects where we need.
+interface Details { name: string, age: number, email: string, userIDname:()=>string }
+
+let Persons: Details = {
+    name: "Kashan", 
+    age: 20, 
+    email: "kashanmoin@gmail.com",
+    userIDname:function(){
+        return "Kashan Moin Here";
+    }
+};
+
+// we cannot call directly userIDname but use it as Persons.userIDname because it is object of persons
+console.log(Persons, Persons.userIDname());
+

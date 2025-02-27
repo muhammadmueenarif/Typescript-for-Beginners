@@ -217,3 +217,11 @@ let a: number | string = "20"; | is used to assign more than one data type so in
 number as well as string. 
 
 there is also any data type means it can store any value. 
+
+
+Lec 9. interfaces 
+Interfaces are a fundamental feature in TypeScript that allows you to define the structure of objects 
+specifying the properties they should have along with their corresponding data types.
+
+interfaces. when we assign type in objects it becomes very lengthy so instead of assigning them in objects 
+we make a interface and use that interface name for objects where we need.
