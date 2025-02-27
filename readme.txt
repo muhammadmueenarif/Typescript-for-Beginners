@@ -242,3 +242,12 @@ oop concepts Inheritance, class, interface. Inheritance one class uses propertie
 Lec 13. MOdules. 
 main purpose to make code modular and easy to maintain. with modules we can handle different user data for 
 various purpose like we used for signup and login. 
+
+Lec 14. explicit vs annotations
+they server similar purpose. Both concepts aim to enhance code readability, maintainability and reduce errors 
+by employing them.
+when we assign type using :, it is called explicit. 
+
+On the other hand, explicit typing is a term used to make data parameters more explicit and clear. It emphasizes 
+that developers should manually specify types to eliminate any ambiguity or confusion. In essence, it ensures 
+that type definitions are not dependent on inference.
