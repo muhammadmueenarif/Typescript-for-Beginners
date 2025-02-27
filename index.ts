@@ -45,11 +45,11 @@ console.log(x);
 
 // function. parameter x that can be of any type. we can set value of parameter to number or any other.
 // x:number, y:string or x:number y:number 
-const userID = (x,y):number => {
-    return x+y;
-};
+// const userID = (x,y):number => {
+//     return x+y;
+// };
 
-console.log(userID(100,"for Kashan"));
+// console.log(userID(100,"for Kashan"));
 
 // interfaces. when we assign type in objects it becomes very lengthy so instead of assigning them in objects 
 // we make a interface and use that interface name for objects where we need.
@@ -68,19 +68,20 @@ console.log(userID(100,"for Kashan"));
 // console.log(Persons, Persons.userIDname());
 
 // class
-class myapp {
-    username:string;
-    // getting username from instance parameter of class. 
-    constructor(username){
-        this.username = this.username;
-    }
-    getName(){
-        console.log(this.username);
-    }
-}
-// instance of class myapp
-let user1 = new myapp('New User');
-user1.getName();
+// class myapp {
+//     username:string;
+//     // getting username from instance parameter of class. 
+//     constructor(username){
+//         this.username = this.username;
+//     }
+//     getName(){
+//         console.log(this.username);
+//     }
+// }
+// // instance of class myapp
+// let user1 = new myapp('New User');
+// user1.getName();
+
 
 // array methods. push, pop, shift, unshift, concat, slice. 
 let numbers:number[] = [1,2,3,4,5];
@@ -131,25 +132,27 @@ let fruits:string[] = ["apple", "banana", "orange"]
 fruits.forEach(fruits => console.log(fruits)); //print each element of array. if we print direct 
 //  console.log(fruits), it will return array but for each return element of array not in array format.
 
-class Parent {
-    name;
-    setmyName(name) {
-        this.name = name;
-    }
-}
 
-class Child extends Parent {
-    myName() {
-        return this.name;
-    }
-}
+// classes
+// class Parent {
+//     name;
+//     setmyName(name) {
+//         this.name = name;
+//     }
+// }
 
-const name1 = new Child();
-name1.setmyName('John Doe');
-console.log(name1.myName());
+// class Child extends Parent {
+//     myName() {
+//         return this.name;
+//     }
+// }
+
+// const name1 = new Child();
+// name1.setmyName('John Doe');
+// console.log(name1.myName());
+
 
 // modules
-
 import mylogin from "./login"
 import mysignup from './signup'
 

@@ -266,3 +266,22 @@ better than any because it enhances type safety. If you use unknown in one part 
 it elsewhere, you will receive an error if the data types do not match. This promotes more. Robust type checking 
 and helps prevent potential issues.
 
+
+Lec 17. configuration
+tsc --init. it will generate configuration files. we will focus on include and exclude. 
+by default it compiles all the files in our project. but if we want to include only specific files and exclude 
+others we can do it also. we can modify configuration. 
+make an exclude function at the end of config file and add file you don't want to compile.
+  tsconfig.json
+  "exclude": [
+    "node_modules"
+  ]
+
+  similarly to include specific file, we can include that file using include. 
+  tsconfig.json
+  "include": [
+    "*/myapp.ts"
+    ]
+This flexibility in configuring which files to include or exclude becomes particularly useful in larger
+production level projects where some files may not hold significant value or relevance to the project and 
+you wish to exclude them from the compilation process.
