@@ -297,3 +297,10 @@ public and private methods with access modifiers. These modifiers are crucial wh
 programming as they dictate how methods can be accessed. Public and private methods serve the purpose of 
 controlling access to classes. If a method is marked as public, it can be used anywhere in the code.
 Conversely, if a method is marked as private, it's restricted to the class where it's defined.
+
+
+Lec 20. Constructors. 
+Constructors have a specific role which is initializing objects of a class. With the constructor method, we 
+can initialize the properties of a class. Key points to remember include the constructors, name, initialization 
+of properties and the possibility of using multiple constructors. Additionally, the super keyword is 
+often employed.

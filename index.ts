@@ -205,3 +205,21 @@ users.setmyName('David Warner');
 // users.name= "Ricky Ponting"; //we get error because name is private and we can't access it outside class.
 users.displayMyName(); // this will print David Warner because it is public.
 // users.getLength(); // this will show error because it is private method. 
+
+// constructors
+class Person {
+    name:string;
+    age:number;
+    constructor(name:string, age:number){
+        //if we remove constructor and then try to print value then we get undefined error value. 
+        // we can remove these below lines and write public with name and age in constructor then we not get error
+        this.name=name; 
+        this.age=age;
+    }
+    greeting() {
+        console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
+    }
+}
+
+let person1 = new Person("Kashan", 10);
+person1.greeting();
