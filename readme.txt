@@ -290,3 +290,10 @@ you wish to exclude them from the compilation process.
 Lec 18. TS Config Target. 
 in tsconfig file the target default value is 3 but we can set it as to latest by writing es and then the veriosn 
 we want to use like es6 or es next. 
+
+
+Lec 19. Access Modifiers.   
+public and private methods with access modifiers. These modifiers are crucial when working in object oriented 
+programming as they dictate how methods can be accessed. Public and private methods serve the purpose of 
+controlling access to classes. If a method is marked as public, it can be used anywhere in the code.
+Conversely, if a method is marked as private, it's restricted to the class where it's defined.

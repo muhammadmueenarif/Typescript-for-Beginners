@@ -185,3 +185,23 @@ values = data; // this is valid because any type can be assigned to any type. th
 
 
 console.log(data);
+
+// access modifiers. public and private. 
+class newUsers {
+    private name="";
+    setmyName(name:string) {
+        this.name = name;
+    }
+    displayMyName() {
+        console.log(this.name);
+    }
+    private getLength(){
+        console.log(this.name.length);
+    }
+}
+
+let users = new newUsers();
+users.setmyName('David Warner');
+// users.name= "Ricky Ponting"; //we get error because name is private and we can't access it outside class.
+users.displayMyName(); // this will print David Warner because it is public.
+// users.getLength(); // this will show error because it is private method. 
