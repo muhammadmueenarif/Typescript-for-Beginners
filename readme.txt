@@ -304,3 +304,26 @@ Constructors have a specific role which is initializing objects of a class. With
 can initialize the properties of a class. Key points to remember include the constructors, name, initialization 
 of properties and the possibility of using multiple constructors. Additionally, the super keyword is 
 often employed.
+
+
+Lec 21. Promises. 
+Two crucial concepts to understand are promises and asynchronous operations. Promises and TypeScript provide 
+a way to handle asynchronous operations and their outcomes, whether they are successful or result in an error.
+Promises represent values that may not be immediately available, but will be at some point in the future.
+TypeScript enhances the safety of promises by allowing you to specify the type of data that will resolve
+to.
+
+
+Lec 22. Promises with Async. 
+The async await syntax simplifies working with promises, making the code look more like synchronous code while 
+preserving asynchronous behavior. Promises are essential for handling asynchronous operations in TypeScript, 
+such as network requests, file input, output, or any situation where you need to wait for a result. They 
+provide a structured and type safe way to handle asynchronous workflows as shown in the summary of the lecture.
+Using promises with async or await patterns, results in more readable and maintainable code for handling 
+single asynchronous operations, making the code resemble synchronous code.
+However, there are situations where using initial promises with then and catch may be more appreciated,
+such as when you need to manage complex control flow or perform multiple synchronous operations 
+concurrently.
+Ultimately, the choice between these approaches depends on the specific requirements of your project and 
+your team's coding style preferences.
+

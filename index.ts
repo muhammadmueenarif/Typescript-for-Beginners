@@ -223,3 +223,21 @@ class Person {
 
 let person1 = new Person("Kashan", 10);
 person1.greeting();
+
+
+// promises. 
+function fetchData(): Promise<String> { 
+    return new Promise((resolve, reject) => {
+    setTimeout(() => {
+        // if condition is true then resolve promise otherwise reject it
+    const data = "This is fetched data";
+    resolve(data);
+    }, 2000);
+})
+};
+
+fetchData().then((data)=> {
+    console.log("Data receieved",data);
+}).catch((error)=> {
+    console.log("Error occurred", error);
+})
